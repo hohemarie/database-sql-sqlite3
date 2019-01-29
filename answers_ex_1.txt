@@ -1,1 +1,65 @@
-﻿
+﻿Titre du cours	| Description du cours | Numero du cours
+“Introduction au CSS” | “Ce cours vise a vous presenter les bases dun langage de programmation servant a ” | 1
+“Les bases du langage de programmation ruby” | “ce cours vise a vous presenter les bases dun langage de programmation ayant des applications multiples” | 2
+
+
+
+
+Numero du cours | numero de ma lecon | titre de la lecon (title) | contenu de la lecon (body)
+1 | 1 | “le titre de ma premiere lecon” | “voici ce que doit contenir la premiere lecon”
+1 | 2 | “le titre de ma deuxieme lecon” | “voici le contenu de ma deuxieme lecon”
+
+Numero du cours | numero de ma lecon | titre de la lecon (title) | contenu de la lecon (body)
+2 | 1 | “le titre de ma premiere lecon” | “voici ce que doit contenir la premiere lecon”
+2 | 2 | “le titre de ma deuxieme lecon” | “voici ce que doit contenir la deuxieme lecon”
+
+
+
+
+url d’une image sur le web | nom de l’user qui a cree un pin | id du pin
+https://images.google.com | user001 | 1
+https://image.google.com/image-nr-2 | user001 | 2
+https://image.google.com/image-nr-3 | user002 | 3
+
+contenu du commentaire | nom de l’utilisateur | id du pin | id du commentaire
+“ceci est le premier commentaire” | user004 | 2 | 1
+
+
+
+
+url d’une image sur le web | nom de l’user qui a cree un pin | id du pin | cela est un commentaire de commentaire oui ou non
+https://images.google.com | user001 | 1
+https://image.google.com/image-nr-2 | user001 | 2
+https://image.google.com/image-nr-3 | user002 | 3
+
+contenu du commentaire | nom de l’utilisateur | id du pin | id du commentaire | cela est un commentaire de commentaire oui ou non
+“ceci est le premier commentaire” | user004 | 2 | 1 | non
+
+contenu du commentaire de commentaire | nom de l’utilisateur | id du pin | id du commentaire commente | cela est un commentaire de commentaire oui ou non
+“le commentaire de commentaire | user005 | 1 | 1 | oui
+
+
+
+
+cours | numero du cours
+cours numero 1 | 1
+cours numero 2 | 2
+cours numero 3 | 3
+
+nom de l’eleve | numero du cours
+eleve 1 | 1
+eleve 2 | 1
+eleve 3 | 1
+eleve 4 | 1
+eleve 5 | 1
+eleve 6 | 1
+eleve 7 | 2
+eleve 8 | 2
+
+
+
+
+
+
+
+
