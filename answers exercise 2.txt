@@ -1,0 +1,25 @@
+﻿SELECT * FROM Albums;
+SELECT * FROM Albums WHERE Title LIKE ‘%Great%’;
+SELECT COUNT(*) FROM Albums;
+DELETE * FROM Albums WHERE Title LIKE ‘%music%’;
+SELECT * FROM Albums WHERE ArtistId=1;
+SELECT Title FROM Albums WHERE ArtistId=1;
+SELECT Name FROM Tracks WHERE AlbumID=4;
+SELECT SUM(UnitPrice) FROM Tracks WHERE AlbumId=4;
+SELECT SUM(Milliseconds) FROM Tracks WHERE AlbumId=4;
+SELECT 
+tracks.albumid,
+title,
+SUM(UnitPrice)
+FROM
+tracks
+INNER JOIN albums ON albums.AlbumId = tracks.albumid
+GROUP BY
+tracks.albumid
+HAVING
+artistid = 58
+INSERT INTO albums(AlbumId,Title,ArtistId) VALUES (348,”Le Nouvel Album”,276)
+INSERT INTO artists(ArtistId, Name) VALUES (276,“Le Nouvel Artiste”)
+INSERT INTO tracks(Name, AlbumId, MediaTypeId, GenreId, Composer, Milliseconds, Bytes, UnitPrice) VALUES (“Ma nouvelle piste”, 348, 5, 26, “Nouveau Compositeur”, 365765, 937564, 0.99)
+
+
